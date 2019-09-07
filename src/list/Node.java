@@ -20,4 +20,11 @@ public class Node {
         return data;
     }
 
+    @Override
+    public String toString() {
+        return "Node{" +
+                "next=" + next +
+                ", data=" + data +
+                '}';
+    }
 }
